@@ -1,3 +1,6 @@
+#此项目需要配置服务器，请到以下链接去下载
+git clone https://github.com/qzp632/nodeserver.git
+
 # chat_online
 
 > A Vue.js project
