@@ -19,7 +19,7 @@
 				
 				<div v-for="item in prs">
 					<label v-if="item.user==username" style="background: red">我的</label>
-					<label v-else style="background: green">item.user</label>
+					<label v-else style="background: green">{{item.user}}</label>
 					<div v-if="item.user==username" style="margin-left: 20px;background: pink">{{item.msg}}</div>
 					<div v-else  style="margin-left: 20px;background: yellow">{{item.msg}}</div>
 				</div>
